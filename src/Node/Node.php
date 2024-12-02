@@ -256,8 +256,7 @@ class Node implements \Countable, \IteratorAggregate
     /**
      * @return int
      */
-    #[\ReturnTypeWillChange]
-    public function count()
+    public function count(): int
     {
         return \count($this->nodes);
     }
